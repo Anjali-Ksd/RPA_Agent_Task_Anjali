@@ -5,9 +5,9 @@ Prerequisites (Dependencies):
 1. For the PDF activities used in this automation, "Pdfsharp.dll" should be downloaded and placed in the Blue Prism Automate folder. This is available in the Blue Prism Digital Exchange.
 2. For the Email/Outlook activities, the object used requires the "Microsoft.Office.Interop.Outlook.dll" to be installed. This is already available in the C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Outlook\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Outlook.dll folder. One must copy and paste this in Blue Prism folder.
 3. Environment Variables should be added/modified accordingly:
-  InvoiceDataExtractionValidation_EmailIDs--> Email Id to share the report and exception messages
-  InvoiceDataExtractionValidation_InputFolderPath--> Folder path where the PDFs will be placed and the Excel Database is available. Request to place Excel data inside   a subfolder "Data".
-  InvoiceDataExtractionValidation_QueueName--> Invoice Data Extraction and Validation Queue
+   InvoiceDataExtractionValidation_EmailIDs--> Email Id to share the report and exception messages.
+   InvoiceDataExtractionValidation_InputFolderPath--> Folder path where the PDFs will be placed and the Excel Database is available. Request to place Excel data inside a subfolder "Data".
+   InvoiceDataExtractionValidation_QueueName--> Invoice Data Extraction and Validation Queue.
 
 This automation mainly consists of three bots, which needs to be run sequentially as mentioned below.
 
