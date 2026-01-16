@@ -17,3 +17,5 @@ This automation mainly consists of three bots, which needs to be run sequentiall
 
 
 This automation involves simple inbuilt PDF manipulation actions. Due to the limitations in the Trial/Learning Blue Prism edition, this automation works only for structured data. And may have challenge running for unstructured data. It has 8 items as input, where, it exceptions out 3 items (with email notification) due to data mismatch and data not found, and marks the other 5 items as successful.
+
+Also, attached the sample PDFs and Invoice Data Excel sheet here.
